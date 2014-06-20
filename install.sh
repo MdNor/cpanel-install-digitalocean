@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install necessary dependencies
-yum install -y perl wget
+yum install -y perl
 
 # Install cPanel
 wget -N http://httpupdate.cPanel.net/latest
