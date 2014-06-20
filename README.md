@@ -7,6 +7,10 @@ Install cPanel on fresh installation of DigitalOcean CentOS 64-Bit
 #### Installation
 
 ````bash
+yum install wget
+````
+
+````bash
 wget https://raw.githubusercontent.com/ronwl/cpanel-install-digitalocean/master/install.sh
 ````
 
