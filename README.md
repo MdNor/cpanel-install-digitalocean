@@ -13,7 +13,7 @@ yum install wget
 ````
 
 ````bash
-wget https://raw.githubusercontent.com/ronwl/cpanel-install-digitalocean/master/install.sh
+wget https://raw.githubusercontent.com/MdNor/cpanel-install-digitalocean/master/install.sh
 ````
 
 ````bash
