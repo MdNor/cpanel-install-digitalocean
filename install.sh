@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # Install necessary dependencies
-yum install -y perl
+yum install -y perl screen
 
-# Install cPanel
+# Install cPanel in GNU Screen session
+cd /tmp     
 wget -N http://httpupdate.cPanel.net/latest
-sh latest
+screen -S test -d -m sh latest
 
 # Install EPEL repo
 su -c 'rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm' > /var/log/cron.log 2>&1
