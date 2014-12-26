@@ -2,7 +2,8 @@ cpanel-install-digitalocean
 ===========================
 
 Install cPanel on fresh installation of DigitalOcean CentOS 64-Bit
-This will also install htop & iotop utilities
+
+This will also install htop, iotop, iftop, nethogs and vnstat utilities
 
 ---
 #### Installation
