@@ -2,6 +2,7 @@ cpanel-install-digitalocean
 ===========================
 
 Install cPanel on fresh installation of DigitalOcean CentOS 64-Bit
+This will also install htop & iotop utilities
 
 ---
 #### Installation
@@ -15,11 +16,7 @@ wget https://raw.githubusercontent.com/ronwl/cpanel-install-digitalocean/master/
 ````
 
 ````bash
-chmod +x install.sh
-````
-
-````bash
-./install.sh
+sh install.sh
 ````
 
 ----
